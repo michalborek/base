@@ -1,5 +1,5 @@
 FROM centos:7
-MAINTAINER Marek Goldmann <mgoldman@redhat.com>
+MAINTAINER Michal Borek <michal@greenpath.pl>
 
 # Install packages necessary to run EAP
 RUN yum update -y && yum -y install xmlstarlet saxon augeas bsdtar unzip && yum clean all
